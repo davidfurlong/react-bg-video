@@ -1,5 +1,5 @@
 {
-  "name": "react-drive-in",
+  "name": "react-bg-video",
   "version": "1.7.3",
   "description": "React component supporting background videos and playlists.",
   "main": "dist/react-drive-in.js",
@@ -15,10 +15,6 @@
     "watch": "watch 'npm run build-browser && npm run build-styles' lib",
     "develop": "npm run build && npm run dev-server & npm run watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ronik-design/react-drive-in.git"
-  },
   "keywords": [
     "react",
     "component",
@@ -33,7 +29,7 @@
     "node": ">=4.0.0"
   },
   "peerDependencies": {
-    "react": "^0.14.3"
+    "react": "^15.3.2"
   },
   "devDependencies": {
     "babel": "^6.1.18",
@@ -49,9 +45,8 @@
     "eslint-plugin-react": "^3.10.0",
     "less": "^2.5.3",
     "less-plugin-autoprefix": "^1.5.1",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "react-drive-in": "^1.7.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "rollup": "^0.21.0",
     "rollup-plugin-babel": "^2.1.0",
     "rollup-plugin-commonjs": "^1.4.0",
@@ -59,21 +54,12 @@
     "rollup-plugin-npm": "^1.1.0",
     "watch": "^0.16.0"
   },
-  "author": {
-    "name": "Ronik Design",
-    "email": "contact@ronikdesign.com",
-    "url": "http://www.ronikdesign.com"
-  },
   "licenses": [
     {
       "type": "ISC",
       "url": "http://github.com/ronik-design/react-drive-in/raw/master/LICENSE"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/ronik-design/react-drive-in/issues"
-  },
-  "homepage": "https://github.com/ronik-design/react-drive-in",
   "dependencies": {
     "drive-in": "^1.5.2"
   }
